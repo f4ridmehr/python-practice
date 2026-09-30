@@ -1,0 +1,7 @@
+allowed = ['admin', 'editor', 'viewer']
+role = 'Editor'
+
+if role.lower() in allowed:
+    print(f"{role} is a valid role.")
+else:
+    print(f"{role} is not a valid role.")
